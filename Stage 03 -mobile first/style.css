@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Palanquin', sans-serif;
+  background: #EFF1FF;
+}
+
+header{
+  background: #8E9AAF;
+  display: grid;
+  /*alinhar o grid ao centro*/
+  place-items:center;
+}
+
+#logo{
+  padding: 3.2rem 0;
+}
+.title ,h1{
+  font-family: 'Staatliches', cursive;
+  font-size: 4rem;
+  line-height: 3.4rem;
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 400;
+
+  color: #FFFFFF;
+}
+
+.title{
+  background: #CBC0D3;
+  width: 100%;
+  margin-bottom: 2.9rem;
+  padding: 0.8rem;
+
+  text-align: center;
+}
+
+.page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.8rem 3.2rem 6rem;
+}
+
+.page , p{
+
+  font-family:'Palanquin', sans-serif; 
+  font-size: 2.0rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+
+  width: 45rem;
+  text-align: center;
+ 
+
+  color: #23053A;
+
+  margin: 1.4rem auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.card img{
+  
+  border-radius: 2rem;
+  width: 100%;
+}
+
+.card{
+  position: relative;
+  display: grid;
+  gap: 3.2rem;
+  margin-top: 6.3rem;
+  object-fit: cover;
+  width: 32rem;
+}
+
+
+.card .card{
+  position: relative;
+  width: 32rem;
+  height: fit-content;
+ 
+}
+
+.card .card span{
+  width: 11.2rem;
+  height: 3.5rem;
+  top: 1.6rem;
+  right: 1.6rem;
+
+  font-family: 'Staatliches',cursive;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #4a4e69;
+  position:absolute;
+
+  background: #feeafa;
+  border-radius: 2rem;
+  
+  text-align: center;
+  letter-spacing: 0.2rem;
+
+  padding: 1rem;
+}
